@@ -11,21 +11,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 		<?php echo $navbar; ?>
-
-		<div class="hots-bar">
-			<img src="<?php echo base_url(); ?>assist/img/bgsetmain.png">
-				<div class="headinfo" data-aos="zoom-in-left">
-					Gameshope
+		<div class="bg-promotion">
+			<div class="img-bg">
+				<img src="<?php echo base_url(); ?>assist/img/bgpro.jpg">
+			</div>
+		</div>
+		<div class="body-promotion">
+			<div class="header-pro">
+				<p><i class="fas fa-ad"></i> โปรโมชั่น</p>
+			</div>
+			<div class="or">
+					<hr><p><i class="fas fa-gamepad"></i></p><hr>
+			</div>
+			<div class="teble-order">
+				<div class="table-box">
+					<img src="<?php echo base_url(); ?>assist/img/menu/s13.jpg">
+					<div class="bg-blank"></div>
+					<div class="bg-blank-text"></div>
+					<div class="bg-readmore"><a href="<?php echo base_url(); ?>index.php/Gameshope/promotion_view">ดูรายละเอียด</a></div>
+					<div class="bg-submit"><a href="#">เช่าเลย</a></div>
+					<div class="text-price">ราคา 100.-</div>
+					<div class="text-header">โปรโมชั่นเกมส์ผี</div>
+					<div class="text-number">100 เกมส์</div>
 				</div>
-				<div class="text-bar" data-aos="zoom-in-left">
-					<div>
-						เป็นการพจญภัยในอวกาศเพื่อตามหาบ้านหลังใหม่ให้กับเผ่าพันธ์ุ.
-					</div>
-					<div style="font-size:0.6em; margin-left: -10%; margin-top:10%;">
-						<a href="<?php echo base_url(); ?>index.php/Gameshope/store_viwe">เข้าดูเกมส์</a>
-						<span>ยอดนิยม</span>
-					</div>
-				</div>
+			</div>
 		</div>
 
 	<?php echo $footer; ?>
